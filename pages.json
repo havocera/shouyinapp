@@ -1,0 +1,107 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/zhujiao/zhujiao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/jifen/jifen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhangdan/zhangdan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/qrcode/qrcode",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/show/show",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#2979ff",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"fontSize":"18px",
+		"height":"70px",
+		"iconWidth":"30px",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/caidan1.png",
+			"selectedIconPath": "static/caidanactive.png",
+			"text": "菜单"
+		}, {
+			"pagePath": "pages/zhujiao/zhujiao",
+			"iconPath": "static/taiqiu.png",
+			"selectedIconPath": "static/taiqiu1.png",
+			"text": "助教"
+		},{
+			"pagePath": "pages/show/show",
+			// "iconPath": "static/image/icon_API.png",
+			// "selectedIconPath": "static/image/icon_API_HL.png",
+			"text": "黑石台球厅"
+		},{
+			"pagePath": "pages/jifen/jifen",
+			"iconPath": "static/jifen1.png",
+			"selectedIconPath": "static/jifen4.png",
+			"text": "计分"
+		},{
+			"pagePath": "pages/zhangdan/zhangdan",
+			"iconPath": "static/check.png",
+			"selectedIconPath": "static/zhangdan.png",
+			"text": "账单"
+		}
+		]
+	}
+}
